@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char operator;
+    double A,B;
+    //ask user to enter variables and operator in question
+     printf("first provide operator");
+     scanf("%c",&operator);
+     printf("enter the numbers");
+     scanf("%lf,%lf,",&A,&B);
+     //solve the problem
+     switch (operator){
+     case '+':
+     printf("%2lf+%2lf=%2lf",A,B,A+B);
+     break;
+     case '-':
+        printf("%2lf-%2lf=%2lf",A,B,A-B);
+        break;
+        case '*':
+        printf("%2lf*%2lf=%2lf",A,B,A*B);
+        break;
+        case '/':
+        printf("%2lf/%2lf=%2lf",A,B,A/B);
+        break;
+
+     }
+
+    printf("THANK YOU.....COME AGAIN");
+
+    return 0;
+}
