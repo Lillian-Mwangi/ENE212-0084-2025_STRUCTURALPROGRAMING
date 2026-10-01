@@ -5,11 +5,11 @@ int main()
 {
     char operator;
     double A,B;
-    //ask user to enter variables and operator in question
-     printf("first provide operator");
-     scanf("%c",&operator);
-     printf("enter the numbers");
-     scanf("%lf,%lf,",&A,&B);
+     //ask user to enter variables and operator in question
+       printf("first provide operator");
+       scanf("%c",&operator);
+       printf("enter the numbers");
+       scanf("%lf,%lf,",&A,&B);
      //solve the problem
      switch (operator){
      case '+':
