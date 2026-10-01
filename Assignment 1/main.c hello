@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 int main()
-{
-    printf("Hello world!\n");
-    printf("AM LILLY");
+{ 
+  char username;
+    printf("please provide username");
+    scanf("%c",&username);
+    printf("Hello %c",username);
     return 0;
 }
