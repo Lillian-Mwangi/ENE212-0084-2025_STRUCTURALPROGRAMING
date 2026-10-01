@@ -13,17 +13,20 @@ int main()
      //solve the problem
      switch (operator){
      case '+':
-     printf("%2lf+%2lf=%2lf",A,B,A+B);
+       printf("%2lf+%2lf=%2lf",A,B,A+B);
      break;
      case '-':
-        printf("%2lf-%2lf=%2lf",A,B,A-B);
-        break;
-        case '*':
-        printf("%2lf*%2lf=%2lf",A,B,A*B);
-        break;
-        case '/':
-        printf("%2lf/%2lf=%2lf",A,B,A/B);
-        break;
+       printf("%2lf-%2lf=%2lf",A,B,A-B);
+     break;
+     case '*':
+       printf("%2lf*%2lf=%2lf",A,B,A*B);
+     break;
+     case '/':
+       printf("%2lf/%2lf=%2lf",A,B,A/B);
+     break;
+     case '%':
+       printf("%2lf%%2lf=%2lf",A,B,A%B);
+     break;
 
      }
 
