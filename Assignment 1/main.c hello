@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//pseudocode
+//start
+//  input username
+//  output username
+//end
 int main()
 { 
-  char username;
+  char username [50];
     printf("please provide username");
-    scanf("%c",&username);
-    printf("Hello %c",username);
+    scanf("%s",&username);
+    printf("Hello %s\n",username);
     return 0;
 }
