@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -14,24 +15,24 @@ int main()
      //solve the problem
      switch (operator){
      case '+':
-       printf("%2lf+%2lf=%2lf",A,B,A+B);
+       printf("%.2lf+%.2lf=%.2lf",A,B,A+B);
      break;
      case '-':
-       printf("%2lf-%2lf=%2lf",A,B,A-B);
+       printf("%.2lf-%.2lf=%.2lf",A,B,A-B);
      break;
      case '*':
-       printf("%2lf*%2lf=%2lf",A,B,A*B);
+       printf("%.2lf*%.2lf=%.2lf",A,B,A*B);
      break;
      case '/':
-       printf("%2lf/%2lf=%2lf",A,B,A/B);
+       printf("%.2lf/%.2lf=%.2lf",A,B,A/B);
      break;
      case '%':
-       printf("%2lf%%2lf=%2lf",A,B,A%B);
+       printf("%.2lf%%%.2lf=%.2lf",A,B,fmod(A,B));
      break;
 
      }
 
-    printf("THANK YOU.....COME AGAIN");
+       printf("THANK YOU.....COME AGAIN");
 
     return 0;
 }
